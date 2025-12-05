@@ -157,3 +157,5 @@ export LM_LICENSE_FILE=$LM_LICENSE_FILE:/opt/pgi/license.dat;
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+export PS1="🐧[\[$(tput setaf 2)\]\w\[$(tput sgr0)\]]\n\[$(tput setaf 6)\]\u\[$(tput sgr0)\]\[$(tput setaf 3)\]@\[$(tput sgr0)\]\[$(tput setaf5)\]\h\[$(tput sgr0)\] \[$(tput setaf 3)\]\A\[$(tput sgr0)\] \\$ \[$(tput sgr0)\]"
